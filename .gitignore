@@ -1,0 +1,6 @@
+# Distribution / packaging
+.idea
+
+# Virtualenv
+/venv
+__pycache__
