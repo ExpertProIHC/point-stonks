@@ -39,7 +39,7 @@ $ pip install -r requirements.txt
 #### 6. Copie o arquivo dev.env para um novo arquivo chamado .env
 
 ```
-$ cp dev.env venv
+$ cp dot.env .env
 ```
 
 #### 7. Em seguida, execute os comandos para criar as tabelas no banco de dados:
