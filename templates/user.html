@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="content">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="title">Editar Perfil</h5>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="row">
+              <div class="col-md-6 pr-md-1">
+                <div class="form-group">
+                  <label>Nome</label>
+                  <input type="text" class="form-control" placeholder="Nome">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label>E-mail</label>
+                  <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="card-footer">
+          <button type="submit" class="btn btn-fill btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-user">
+        <div class="card-body">
+          <p class="card-text">
+          <div class="author">
+            <div class="block block-one"></div>
+            <div class="block block-two"></div>
+            <div class="block block-three"></div>
+            <div class="block block-four"></div>
+            <a href="javascript:void(0)">
+              <img class="avatar" src="{% static 'img/emilyz.jpg' %}" alt="...">
+              <h5 class="title">Nome</h5>
+            </a>
+            <p class="description">
+              Aluno || Professor
+            </p>
+          </div>
+          </p>
+          <div class="card-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sint dolorem, nihil, aliquam maiores
+            reiciendis velit excepturi doloribus aspernatur a doloremque mollitia esse cupiditate veritatis ratione
+            cumque nam, corporis possimus!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
